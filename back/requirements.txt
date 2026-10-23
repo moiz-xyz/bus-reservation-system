@@ -1,0 +1,6 @@
+fastapi==0.161.1
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.1.6
+PyJWT==2.15.1
+# For MySQL:      pip install pymysql   and set DATABASE_URL=mysql+pymysql://user:pass@localhost/bus_tracking
+# For PostgreSQL: pip install psycopg2-binary and set DATABASE_URL=postgresql://user:pass@localhost/bus_tracking
